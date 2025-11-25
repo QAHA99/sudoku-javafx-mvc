@@ -8,9 +8,9 @@ A fully interactive Sudoku desktop application built with **JavaFX**. The projec
 
 ## Architectural Design (MVC)
 
-* **Model (`se.kth...model`):** Manages the game state, logic, and validation (e.g., `Boxes`, `SudokuLevel`).
-* **View (`se.kth...view`):** Renders the UI components including the grid, buttons, and menu (e.g., `GridView`, `Buttons`).
-* **Controller (`se.kth...controller`):** Acts as the mediator, processing user inputs and updating the model/view accordingly.
+* **Model:** Manages the game state, logic, and validation (e.g., `Boxes`, `SudokuLevel`).
+* **View:** Renders the UI components including the grid, buttons, and menu (e.g., `GridView`, `Buttons`).
+* **Controller:** Acts as the mediator, processing user inputs and updating the model/view accordingly.
 
 ## Key Features
 * **Interactive UI:** Smooth JavaFX-based graphical interface.
